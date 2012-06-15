@@ -8,7 +8,7 @@ b = 1
 fp.write(str(a)+'\n')
 fp.write(str(b)+'\n')
 
-for i in range(0,1000):
+for i in range(2,1000):
     fp.write(str(a+b)+'\n')
     a,b = (b,a+b) # you should try this
 
