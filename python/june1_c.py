@@ -11,6 +11,6 @@ def fib(n):
         return fib(n-1)+fib(n-2)
 
 for i in range(1,31):
-    fp.write(str(fib(i))'\n')
+    fp.write(str(fib(i))+'\n')
 
 fp.close()
