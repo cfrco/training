@@ -45,8 +45,9 @@ def _com(t,o,l,i):
             o = o[:i]+c
             _com(t,o,l,i+1)
             t[c] += 1
-            
-while True :
-    instr = raw_input(">>>")
-    n = int(raw_input("(number)>>"))
-    com(instr,n)
+
+if __name__ == "__main__":
+    while True :
+        instr = raw_input(">>>")
+        n = int(raw_input("(number)>>"))
+        com(instr,n)
