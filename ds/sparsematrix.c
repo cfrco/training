@@ -109,6 +109,7 @@ void print_spmatrix(spmatrix *sm)
     for(i=0;i<sm->length;++i)
         printf("(%d %d) %d\n",sm->entries[i].row,sm->entries[i].col,sm->entries[i].value);
 }
+
 int main()
 {
     spmatrix sm,sm2,sm3;
